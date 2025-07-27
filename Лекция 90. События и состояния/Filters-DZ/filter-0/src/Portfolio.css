@@ -1,0 +1,27 @@
+.container {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    justify-content:space-around
+}
+
+.block {
+    position: relative;
+}
+
+.image {
+    /* position: absolute; */
+   max-width: 250px;
+   margin-bottom: 20px;
+}
+
+
+
+.category {
+    position: absolute;  
+    /* left: 10%; */
+    right: 3%;
+    top: 3%;
+    color: rgb(237, 26, 26);
+}

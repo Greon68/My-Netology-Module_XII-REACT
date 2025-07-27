@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+button{
+    background-color: cadetblue;
+    color: #fbf9f9;
+}
+
+input {
+    padding: 5px;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* .inputFields{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+} */

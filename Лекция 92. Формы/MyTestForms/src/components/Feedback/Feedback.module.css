@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.button{
+    background-color: cadetblue;
+    color: #fbf9f9;
+}
+
+input ,
+select {
+    padding: 5px;
+}
