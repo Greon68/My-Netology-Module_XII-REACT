@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.modal {
+  display: grid;
+  place-content: center;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: teal;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.content p {
+  margin: 6px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.drop-box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid teal;
+}
+
+button {
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+.message {
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.message-error {
+  background-color: tomato;
+}
+
+.message-success {
+  background-color: #00fc9a;
+  color: #000;
+}
+
+.message-info {
+  background-color: #ffb500;
+}

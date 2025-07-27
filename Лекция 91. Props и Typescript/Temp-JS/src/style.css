@@ -1,0 +1,26 @@
+.purchase-item {
+ display: flex;
+ width: 300px;
+ align-items: center;
+ justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+li {
+    border: 1px solid teal;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* .purchase-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+} */

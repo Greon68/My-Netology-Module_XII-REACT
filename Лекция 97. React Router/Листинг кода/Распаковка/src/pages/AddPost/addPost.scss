@@ -1,0 +1,16 @@
+.add-post {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  input, textarea, button {
+      max-width: 50%;
+      padding: 10px;
+      border-radius: 6px;
+  }
+
+  textarea {
+      min-height: 200px;
+  }
+
+}
